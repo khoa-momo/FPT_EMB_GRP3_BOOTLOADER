@@ -29,6 +29,8 @@ uint8_t UART0_ReceiveData(void);
 
 void UART0_SetupReceiveINT();
 
+void UART0_DeInit();
 
+void Clock_DeInit();
 
 #endif /* _UART0_H_ */
